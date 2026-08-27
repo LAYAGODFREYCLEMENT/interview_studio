@@ -45,5 +45,11 @@
 	<true/>
 	<key>UIApplicationSupportsIndirectInputEvents</key>
 	<true/>
+
+	<!-- permission for hardware to run video and audio recordings -->
+	<key>NSCameraUsageDescription</key>
+	<string>Required to record video during interview practice.</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>Required to capture response audio during interview practice.</string>
 </dict>
 </plist>
